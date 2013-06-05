@@ -1,0 +1,27 @@
+{
+    "background": {
+	"scripts": ["js/jquery.js", "js/background.js"]
+    },
+    "browser_action": {
+	"default_icon": "icons/on.png",
+	"default_popup": "popup.html"
+    },
+    "description": "求是潮浙大助手",
+    "icons": {
+	"128": "icons/on.png"
+    },
+    "manifest_version": 2,
+    "name": "求是潮浙大助手",
+    "options_page": "options.html",
+    "permissions": [
+	"notifications",
+	"tabs",
+	"<all_urls>",
+	"unlimitedStorage"
+    ],
+    "version": "0.0.1",
+    "web_accessible_resources": [
+	"icons/on.png",
+	"icons/off.png"
+    ]
+}
