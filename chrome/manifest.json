@@ -1,6 +1,6 @@
 {
     "background": {
-	"scripts": ["js/jquery.js", "js/background.js", "js/navigator.js", "js/portamento.js" ]
+	"scripts": ["js/jquery.js", "js/background.js", "js/navigator.js" ]
     },
     "browser_action": {
 	"default_icon": "icons/on.png",
@@ -12,7 +12,7 @@
     },
 	"content_scripts": [ {
 	  "css": [ "css/navigator.css" ],
-      "js": [ "js/jquery.js", "js/portamento.js", "js/navigator.js" ],
+      "js": [ "js/jquery.js", "js/navigator.js" ],
       "matches": [ "file://*", "http://*/*", "https://*/*" ],
 	  "run_at": "document_end"
     }],
