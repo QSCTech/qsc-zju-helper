@@ -1,6 +1,6 @@
 {
     "background": {
-	"scripts": ["js/jquery.js", "js/background.js"]
+	"scripts": ["js/jquery.js", "js/background.js", "js/navigator.js", "js/portamento.js" ]
     },
     "browser_action": {
 	"default_icon": "icons/on.png",
@@ -10,6 +10,12 @@
     "icons": {
 	"128": "icons/on.png"
     },
+	"content_scripts": [ {
+	  "css": [ "css/navigator.css" ],
+      "js": [ "js/jquery.js", "js/portamento.js", "js/navigator.js" ],
+      "matches": [ "file://*", "http://*/*", "https://*/*" ],
+	  "run_at": "document_end"
+    }],
     "manifest_version": 2,
     "name": "求是潮浙大助手",
     "options_page": "options.html",
@@ -21,7 +27,8 @@
     ],
     "version": "0.0.1",
     "web_accessible_resources": [
-	"icons/on.png",
-	"icons/off.png"
+		"css/navigator.css",
+		"icons/on.png",
+		"icons/off.png"
     ]
 }
