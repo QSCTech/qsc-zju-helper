@@ -29,6 +29,8 @@
     "web_accessible_resources": [
 		"css/navigator.css",
 		"icons/on.png",
-		"icons/off.png"
+		"icons/off.png",
+		"icons/navi_logo_open.png",
+		"icons/navi_logo_off.png"
     ]
 }

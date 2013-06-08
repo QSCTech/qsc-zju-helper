@@ -10,10 +10,10 @@
 	top:0;
 	display:none;
 }
-#qscnavi_flip{
+#qscnavi_flip_open{
 	height:30px;
 	padding:3px 0;
-	width:100px;
+	width:80px;
 	background-color:#91bbb9;
 	position:absolute;
 	z-index:2147483647;
@@ -21,14 +21,21 @@
 	top:0;
 	display:block;
 }
+#qscnavi_flip_off{
+	height:30px;
+	padding:3px 0;
+	width:80px;
+	background-color:#91bbb9;
+	position:absolute;
+	z-index:2147483647;
+	left:0;
+	top:0;
+	display:none;
+}
 #qscnavi_top a{
 	padding:5px 0;
 	text-decoration:none;
 	color:#000000;
-}
-#qscnavi_flip p{
-	text-decoration:none;
-	color:#FFFFFF;
 }
 #qscnavi_top-content{
 	width:1200px;
@@ -38,7 +45,7 @@
 }
 #qscnavi_top-nav ul{
 	list-style:none;
-	margin-left:235px;
+	margin-left:90px;
 }
 #qscnavi_top-nav li{
 	float:left;
